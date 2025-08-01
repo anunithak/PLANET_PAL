@@ -168,7 +168,7 @@ class _DashboardPageState extends State<DashboardPage> {
     await prefs.setInt('progress_$challengeName', dailyProgress[challengeName]!);
   }
   int maxStage = 3; // or however many seed images you have
-  int startingEcoActions = 7; // capture this when user opens or resets
+  int startingEcoActions = 0; // capture this when user opens or resets
 
   String _getPlantImage() {
     int relativeGrowth = ecoActions - startingEcoActions;
@@ -477,7 +477,7 @@ class _NavIcon extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Icon(icon),
-            Text(label, style: const TextStyle(fontSize: 12)),
+            Text(label, style: const TextStyle(fontSize: 7)),
           ],
         ),
       ),
