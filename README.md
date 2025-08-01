@@ -1,16 +1,29 @@
-# planetpal
+# PlanetPal 🌱
 
-A new Flutter project.
+PlanetPal is a Flutter app that encourages sustainable habits and eco-friendly living. Features include:
 
-## Getting Started
+- ✅ Daily eco-habit checklist
+- 🏆 Weekly carbon footprint challenges
+- 🛡️ Badge system for achievements
+- 👤 User profile with stats
 
-This project is a starting point for a Flutter application.
+## How to Run
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repo
+2. Run `flutter pub get`
+3. Use an emulator or real device
+4. Run `flutter run`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📁 lib/ Folder Structure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+lib/
+├── build/
+├── screens/
+│   └── profile.dart
+├── widgets/
+│   └── habit_tile.dart
+├── dashboard.dart
+└── main.dart
+```
+
